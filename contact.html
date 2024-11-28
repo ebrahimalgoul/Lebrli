@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 24px;
+            color: #444;
+        }
+        .contact-info, .contact-form {
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .contact-info i {
+            color: #f39c12;
+            margin-right: 10px;
+        }
+        .contact-form form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+        .form-group input, 
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-group textarea {
+            resize: none;
+            height: 120px;
+        }
+        .form-group input:focus, 
+        .form-group textarea:focus {
+            border-color: #f39c12;
+            outline: none;
+        }
+        .form-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+        }
+        .form-btn:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اتصل بنا</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">نحن هنا لمساعدتك</h2>
+
+        <!-- معلومات الاتصال -->
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt">📍</i> العنوان: شارع XYZ، المدينة</p>
+            <p><i class="fas fa-phone-alt">📞</i> الهاتف: +123 456 789</p>
+            <p><i class="fas fa-envelope">✉️</i> البريد الإلكتروني: info@example.com</p>
+        </div>
+
+        <!-- نموذج الاتصال -->
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">الاسم الكامل</label>
+                    <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">رسالتك</label>
+                    <textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
+                </div>
+                <button type="submit" class="form-btn">إرسال</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 جميع الحقوق محفوظة - موقعك الإلكتروني.
+    </footer>
+</body>
+</html>

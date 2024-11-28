@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قسم الكتب</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 24px;
+            color: #444;
+        }
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .book-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+        .book-card:hover {
+            transform: translateY(-5px);
+        }
+        .book-image img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .book-content {
+            padding: 15px;
+        }
+        .book-title {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .book-description {
+            font-size: 14px;
+            color: #666;
+            margin: 0 0 15px;
+        }
+        .book-btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .book-btn:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>قسم الكتب</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">اكتشف مجموعة الكتب المميزة لدينا</h2>
+        <div class="books-grid">
+            <div class="book-card">
+                <div class="book-image">
+                    <img src="./image/books-1246674_960_720.jpg" alt="كتاب 1">
+                </div>
+                <div class="book-content">
+                    <h3 class="book-title">الروايه الاولي</h3>
+                    <p class="book-description">هذا وصف مختصر للكتاب يوضح محتواه وفائدته للقارئ.</p>
+                    <a href="#" class="book-btn">عرض المزيد</a>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-image">
+                    <img src="./image/book 2.jpg" alt="كتاب 2">
+                </div>
+                <div class="book-content">
+                    <h3 class="book-title">الروايه الثانيه</h3>
+                    <p class="book-description">هذا وصف مختصر للكتاب يوضح محتواه وفائدته للقارئ.</p>
+                    <a href="#" class="book-btn">عرض المزيد</a>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-image">
+                    <img src="./image/book 3.png" alt="كتاب 3">
+                </div>
+                <div class="book-content">
+                    <h3 class="book-title">الروايه الثالثه</h3>
+                    <p class="book-description">هذا وصف مختصر للكتاب يوضح محتواه وفائدته للقارئ.</p>
+                    <a href="#" class="book-btn">عرض المزيد</a>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-image">
+                    <img src="./image/book 4.avif" alt="كتاب 4">
+                </div>
+                <div class="book-content">
+                    <h3 class="book-title">الروايه الرابعه</h3>
+                    <p class="book-description">هذا وصف مختصر للكتاب يوضح محتواه وفائدته للقارئ.</p>
+                    <a href="#" class="book-btn">عرض المزيد</a>
+                </div>
+            </div>
+        </div>
+    </div>
